@@ -1,0 +1,6 @@
+compile:
+g++ -std=c++17 -o arkanoid main.cpp -I/opt/homebrew/include -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system
+g++ -std=c++17 -o arkanoid main.cpp -I/opt/homebrew/include -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system -framework Foundation -framework AppKit
+g++ -std=c++17 -o main main.cpp -I/opt/homebrew/include -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system
+cd /Users/liza/Desktop/Курсач/arkanoid
+g++ -std=c++17 -o main main.cpp -I/opt/homebrew/include -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system
